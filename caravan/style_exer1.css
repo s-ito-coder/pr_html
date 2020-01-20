@@ -1,0 +1,127 @@
+ /* ブラウザがそれぞれ持っているCSSをリセットするため */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+header {
+	width: 90%;
+	height: 50px 0;
+	margin: 0 auto;
+	text-align: center;
+}
+header .headline {
+	font-size: 32px;
+	padding: 20px 0;
+}
+.nav-list {
+	text-align: center;
+	padding: 15px 0;
+	margin: 0 auto;
+}
+.nav-list-item {
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+}
+
+.main {
+	width: 800px; /* 横幅 */
+	height: 700px;
+	margin: 0 auto;
+}
+.block {
+	width: 800px;
+	height: 600px;
+	padding: 50px 0;
+	margin: 0 auto;
+}
+.block1 {
+	width: 200px; /* 横幅 */
+	height: 200px; /* 高さ */
+	float: left; /* 要素を左揃えで並べる */
+	background-color: #e6ffe9
+}
+.block2 {
+	width: 200px; /* 横幅 */
+	height: 200px; /* 高さ */
+	float: left; /* 要素を左揃えで並べる */
+	background-color: #cbffd3
+}
+.block3 {
+	width: 200px; /* 横幅 */
+	height: 200px; /* 高さ */
+	float: left; /* 要素を左揃えで並べる */
+	background-color: #aeffbd
+}
+.block4 {
+	width: 200px; /* 横幅 */
+	height: 200px; /* 高さ */
+	float: left; /* 要素を左揃えで並べる */
+	background-color: #93ffab
+}
+.block5 {
+	width: 200px; /* 横幅 */
+	height: 200px; /* 高さ */
+	float: left; /* 要素を左揃えで並べる */
+	background-color: #f3ffd8
+}
+.block6 {
+	width: 200px; /* 横幅 */
+	height: 200px; /* 高さ */
+	float: left; /* 要素を左揃えで並べる */
+	background-color: #edffbe
+}
+.block7 {
+	width: 200px; /* 横幅 */
+	height: 200px; /* 高さ */
+	float: left; /* 要素を左揃えで並べる */
+	background-color: #e9ffa5
+}
+.block8 {
+	width: 200px; /* 横幅 */
+	height: 200px; /* 高さ */
+	float: left; /* 要素を左揃えで並べる */
+	background-color: #e4ff8d
+}
+.block9 {
+	width: 200px; /* 横幅 */
+	height: 200px; /* 高さ */
+	float: left; /* 要素を左揃えで並べる */
+	background-color: #d9e5ff
+}
+.block10 {
+	width: 200px; /* 横幅 */
+	height: 200px; /* 高さ */
+	float: left; /* 要素を左揃えで並べる */
+	background-color: #bad3ff
+}
+.block11 {
+	width: 200px; /* 横幅 */
+	height: 200px; /* 高さ */
+	float: left; /* 要素を左揃えで並べる */
+	background-color: #a4c6ff
+}
+.block12 {
+	width: 200px; /* 横幅 */
+	height: 200px; /* 高さ */
+	float: left; /* 要素を左揃えで並べる */
+	background-color: #8eb8ff
+}
+
+footer {
+	width: 100%; /* 横幅 */
+	height: 120px; /* 高さ */
+	text-align: center;
+	padding: 50px 0;
+	background-color: #848282;
+}
+.footer-text {
+	color: #fff;
+}
