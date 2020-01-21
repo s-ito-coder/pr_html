@@ -4,9 +4,6 @@
   box-sizing: border-box;
   color: #6c6b6b;
 }
-a {
-  text-decoration: none;
-}
 .clearfix::after {
   content: "";
   display: block;
@@ -31,10 +28,10 @@ header .headline{
 }
 .main-visual {
   width: 100%;
-  height: 300px;
+  height: 400px;
   background-image: url(img/mv.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
 }
 .main-visual-content {
   width: 40%;
@@ -44,21 +41,20 @@ header .headline{
   padding-top: 105px;
 }
 .main-visual-text {
-  color: #fff;
+  padding: 20px;
 }
 .main-visual-name {
   color: #fff;
   margin-top: 30px;
 }
 main {
-  width: 800px;
+  width: 840px;
   margin: 0 auto; /* 領域を中央揃え */
-  padding: 70px 0; /* 上下に70px、左右に0pxの内側余白 */
+  padding: 50px 0; /* 上下に70px、左右に0pxの内側余白 */
 }
 .blog {
-  width: 540px;
+  width: 840px;
   float: left;
-  margin-right: 30px; /* 領域の右側余白 */
 }
 .blog-box {
   padding-top: 50px;
@@ -69,45 +65,16 @@ main {
   line-height: 0.6;
 }
 .blog-item {
-  padding-bottom: 20px;
-  margin-bottom: 20px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
   border-bottom: 1px solid #f7f7f7;
 }
 .blog-image{
-  height: 180px;
-  float: left;
 }
 .blog-text-headline {
   padding-bottom: 15px;
 }
-.blog-text {
-  float: left;
-  padding-top: 30px;
-  padding-left: 25px;
-}
-.blog-date {
-  display: inline-block;
-  font-size: 12px;
-}
-.category {
-  display: inline-block;
-  padding: 5px 8px;
-  background-color: #acabab;
-  border-radius: 3px;
-  color: #fff;
-  font-size: 11px;
-}
-.sidebar {
-  width: 230px;
-  float: left;
-}
 footer {
-  width: 100%;
-  height: 120px;
-  text-align: center;
-  padding: 50px 0;
-  background-color: #848282;
 }
 .footer-text {
-  color: #fff;
 }
