@@ -186,9 +186,14 @@ footer {
 .footer-text {
   color: #fff;
 }
+
 @media screen and (max-width:425px) {
   main {
      width: 100%;
+  }
+  .nav-list-item {
+    width: 100%;
+    margin: 0 0 10px 0;
   }
   .main-visual {
      width: 100%;
@@ -207,17 +212,34 @@ footer {
   }
   .blog {
     width: 100%;
-    float: none;
+    margin: 0;
   }
   .blog-box {
-    width: 100%;
-    float: none;
+    padding-left: 2%;
+    padding-right: 2%;
   }
   .blog-image {
-    float: none;
+    width: 49%;
   }
   .blog-item {
-    float: none;
+    margin: 0;
   }
-
+  .blog-text {
+    width: 49%;
+    padding-top: 5px;
+  }
+  .pagination {
+    margin: 0 0 50px 0;
+  }
+  .sidebar {
+    width: 100%;
+    padding: 0 3% 0 3%;
+  }
+  .instagram-box {
+    width: 48%;
+    padding-top: 48%;
+  }
+  .instagram-box:nth-child(2n) {
+    margin-left: 4px;
+  }
 }
